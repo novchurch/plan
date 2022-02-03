@@ -8,14 +8,16 @@ description:  "В предлагаемом плане Ветхий и Новый
 
 # Add your download links    
 download:
-  - platform: Обычный
-    url: ./download/commonplan.pdf
-  - platform: Молодёжный
-    url: ./download/youthplan.pdf
-  - platform: "Крупный шрифт"
-    url: ./download/eldersplan.pdf
+  - platform: "Для печати"
+    url: https://www.oneyearbibleonline.com/readingplan/oneyearbiblereadingplan_russian.pdf
   - platform: "Модуль MyBible"
-    url: ./download/NovChurch.plan.SQLite3
+    url: ./download/OY-p.plan.SQLite3
+#   - platform: Обычный
+#     url: ./download/commonplan.pdf
+#   - platform: Молодёжный
+#     url: ./download/youthplan.pdf
+#   - platform: "Крупный шрифт"
+#     url: ./download/eldersplan.pdf
 
 # General settings
 url: https://novchurch.github.io

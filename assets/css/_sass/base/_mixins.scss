@@ -1,7 +1,7 @@
 /// Pixels to Rems Function
 /// Return a rem value of the exact amount of pixels that you need
 /// @example
-///     padding: rem(20);
+///   padding: rem(20);
 @function rem($pixels, $context: $browser-context) {
   @return #{$pixels/$context}rem;
 }
@@ -42,12 +42,12 @@
 // Responsive background images
 @mixin responsivebackground($sm, $md, $lg) {
   @media screen and (max-width: 800px) {
-    background-image: url("/assets/img/"+$sm);
+    background-image: url("/plan/assets/img/"+$sm);
   }
   @media screen and (min-width: 801px) and (max-width: 1200px) {
-    background-image: url("/assets/img/"+$md);
+    background-image: url("/plan/assets/img/"+$md);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url("/assets/img/"+$lg);
+    background-image: url("/plan/assets/img/"+$lg);
   }
 }
